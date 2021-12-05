@@ -1,0 +1,27 @@
+main: me.cv.Main
+name: CIv5
+version: XV0B14
+api-version: 1.16
+author: Unknown87
+description: CustomItemsVersion5 Baby Boom Update; 
+             Beta 0.9 update - Banned forge; 
+             Beta 10 update finished basic guard system;
+             Beta 11 update - Implemented Abilities system;
+             Beta 12 update - CustomEntities redo + optimization;
+             Beta 13 update - Guards regiments part I;
+             Beta 14 update - Merchants redo + upgraded commands;
+commands:
+   Customitems: 
+      description: opens the plugin
+      usage: /<command>
+      permission: 
+         citems.cmd:
+            description: Allows you to use the command!
+      permission-message: Authority denied;
+   Territory:
+      description: marks your territory
+      usage: /<command>
+      permission:
+         citems.ter:
+            description: Allows you to mark territories!
+      permission-message: Authority denied.
